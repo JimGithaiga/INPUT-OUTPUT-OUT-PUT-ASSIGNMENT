@@ -1,18 +1,21 @@
 import java.util.Scanner;
 public class gradingprogram{
 	public static void main(String[]args){
+//declaration of my variables that i require for my grading program
 		Scanner input = new Scanner(System.in);
 		int choice = 0;
 		String[]course = new String[5];
 		int Score[]=new int[5];
 		double sum=0.0;
-
+//displaying the required fields for the program
 	do{
 		System.out.println("1. Enter a course name and a Score");
 		System.out.println("2. Display All Scores");
 		System.out.println("3. Calculate the average Grade");
 		System.out.println("4. Exit");
-	
+
+	//calling the choices entered by the usere from the keyboard and executing them
+		
 	choice = input.nextInt();
 
 			if( choice==1)
