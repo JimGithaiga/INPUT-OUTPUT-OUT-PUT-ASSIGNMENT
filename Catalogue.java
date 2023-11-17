@@ -1,12 +1,13 @@
 import java.util.Scanner;
 public class Catalogue{
 	public static void main(String[]args){
+		//decralation fo all my variables that i`ll use in my catalogue
 		Scanner input = new Scanner(System.in);
 		int choice = 0;
 		String[]bookname= new String[5];
 		int quantity[]=new int[5];
 		double sum=0.0;
-
+//beggining of the structure to display and modify my code from the user inter face part
 	do{
 	 System.out.println("---------------------");
 		System.out.println("1. Enter book name and Quantity");
@@ -14,7 +15,8 @@ public class Catalogue{
 		System.out.println("3. Total books");
 		System.out.println("4. Exit");
 	 System.out.println("---------------------");
-	
+	//the reading of the user interface keys, and the adding of new books and the quantity required,also displaying the total books and also calculating the total books entered
+		// and also displaying the total number of books recorded via the catalogue
 	choice = input.nextInt();
 
 			if( choice==1)
