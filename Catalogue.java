@@ -68,14 +68,6 @@ public class Catalogue{
 
 
 }
-
-    public static double getAverage(int[] array)
-    {
-        int sum = 0;
-        for(int i : array) sum += i;
-        return ((double) sum)/array.length;
-    }
-
     public static double getSum(int[] array)
     {
         int sum = 0;
